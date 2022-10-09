@@ -10,5 +10,5 @@ metadata:
   name: app-sample
 spec:
   # TODO(user): Add fields here
-  image: registry.cn-shanghai.aliyuncs.com/istio-lab/service-go:v1
-  replica: 2
+  #image: registry.cn-shanghai.aliyuncs.com/istio-lab/service-go:v1
+  #replica: 2
