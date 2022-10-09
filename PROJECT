@@ -1,0 +1,16 @@
+domain: mgxian.dev
+layout:
+- go.kubebuilder.io/v3
+projectName: builder
+repo: mgxian.dev/builder
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: mgxian.dev
+  group: apps
+  kind: Application
+  path: mgxian.dev/builder/api/v1
+  version: v1
+version: "3"
